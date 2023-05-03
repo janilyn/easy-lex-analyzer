@@ -2,7 +2,7 @@
 by: Janilyn G. Malimban (2019-05768)\n
 For CS 155 A.Y. 2022-2023 Second Semester\n
 
-## How to run the program
+## Running the program
 The flex code for the lexical analyzer is saved in the file `main.lex`. Run the following commands on the terminal to compile:
 ```
 lex main.lex
@@ -14,11 +14,12 @@ Run the command `./a.out` and enter your EASY code in the terminal. Press `Ctrl+
 ### Option 2: Saved file
 Locate the file containing your EASY code then run the command `./a.out <path/to/file>`.
 
-\n
 ## Output
 The output of the program will be the tokens identified by the analyzer. Each token will be printed in the following format:
-```<[token], [token class], lineno: [line number]>```
-\n
+```
+<[token], [token class], lineno: [line number]>
+```
+
 ## Notes
 * Comments are not handled by this program.
 * Whitespace will be disregarded by this program.
