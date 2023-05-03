@@ -1,0 +1,14 @@
+procedure BINARY_SEARCH(A,n,x)
+array A(1:n)
+lower = 1; upper<-n
+string = "happy"
+while lower <= upper do
+    middle <-(lower + upper)/2
+    case
+        :x == A(middle): return(middle)
+        :x < A(middle): upper<-middle-1
+        :x > A(middle): lower<-middle+1
+    endcase
+endwhile
+return(0)
+end BINARY_SEARCH
