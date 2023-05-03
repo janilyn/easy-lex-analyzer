@@ -1,5 +1,6 @@
 # Simple Lexical Analyzer for EASY Language
 by: Janilyn G. Malimban (2019-05768)
+For CS 155 A.Y. 2022-2023 Second Semester
 
 ## How to run the program
 The flex code for the lexical analyzer is saved in the file `main.lex`. Run the following commands on the terminal to compile:
@@ -22,3 +23,4 @@ The output of the program will be the tokens identified by the analyzer. Each to
 * This lexical analyzer uses `=` as the assignment operator (token class: SPECIALCHAR) and `==` as relational operator for equality (token class: OP).
 * Only strings enclosed by single quotation marks (`'`) will be recognized by the program as strings. Using double quotation marks (`"`) will trigger an error.
 * Errors will cause the program to exit.
+* The file `input.txt` contains a sample EASY code you can use as an input.
